@@ -4,7 +4,6 @@
 .gradientBorder {
   position: relative;
   display: inline-block;
-  /* padding: 1px; Adjust padding to control border thickness */
   border-radius: 50px; /* Adjust border radius as needed */
 }
 
