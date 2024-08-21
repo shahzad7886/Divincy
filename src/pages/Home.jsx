@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Card from "./Home/Card.jsx";
 import { Philosophers, Religious } from "./Home/cardData.jsx";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -39,12 +40,18 @@ export default function Home() {
             </button>
           </div>
           <div className="flex max-lg:ml-auto space-x-3">
-            <button className="block px-4 md:px-6 py-2.5 text-sm font-semibold bg-custom-gradient rounded-3xl text-white transition-all ease-in-out duration-300 hover:bg-gray-100">
+            <Link
+              to="/register"
+              className="block px-4 md:px-6 py-2.5 text-sm font-semibold bg-custom-gradient rounded-3xl text-white transition-all ease-in-out duration-300 hover:bg-gray-100"
+            >
               Sign Up
-            </button>
-            <button className="block px-4 md:px-6 py-2.5 text-sm font-semibold border-gradient rounded-full bg-white text-dark transition-all ease-in-out duration-300 gradientBorder ">
+            </Link>
+            <Link
+              to="/login"
+              className="block px-4 md:px-6 py-2.5 text-sm font-semibold border-gradient rounded-full bg-white text-dark transition-all ease-in-out duration-300 gradientBorder "
+            >
               Login
-            </button>
+            </Link>
           </div>
         </div>
       </header>
