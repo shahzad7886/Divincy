@@ -367,7 +367,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="py-5 bg-gray-800">
+      <footer className="py-5 background">
         <div className="container px-4 md:px-8 lg:px-[65px] mx-auto flex flex-col md:flex-row justify-between items-center">
           {/* Logo and Navigation Links */}
           <div className="flex flex-col md:flex-row items-center mb-4 md:mb-0">

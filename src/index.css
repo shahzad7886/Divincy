@@ -7,6 +7,9 @@
   border-radius: 50px; /* Adjust border radius as needed */
 }
 
+.background {
+  background-color: linear-gradient(45deg, #fa807c, #9070b7, #22a2e6, #3dcdee);
+}
 .gradientBorder::before {
   content: "";
   position: absolute;
