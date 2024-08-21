@@ -94,3 +94,9 @@ footer li {
   -webkit-text-fill-color: transparent; /* Make the text color transparent */
   background-clip: text; /* For Firefox */
 }
+
+@media screen and (max-width: 680px) {
+  .learn-button {
+    width: 100% !important;
+  }
+}

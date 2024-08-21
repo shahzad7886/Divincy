@@ -172,7 +172,7 @@ export default function Home() {
             />
           ))}
           <div className="col-span-full flex justify-center mt-6">
-            <button className="px-4 sm:w-full gradientBorder py-2 text-sm font-semibold  rounded-full bg-white text-dark transition-all ease-in-out duration-300 hover:bg-gray-100">
+            <button className="px-4 learn-button gradientBorder py-2 text-sm font-semibold  rounded-full bg-white text-dark transition-all ease-in-out duration-300 hover:bg-gray-100">
               Learn More
             </button>
           </div>
@@ -247,7 +247,7 @@ export default function Home() {
             />
           ))}
           <div className="col-span-full flex justify-center mt-6">
-            <button className="px-4  sm:w-full gradientBorder py-2 text-sm font-semibold  rounded-full bg-white text-dark transition-all ease-in-out duration-300 hover:bg-gray-100">
+            <button className="px-4  learn-button gradientBorder py-2 text-sm font-semibold  rounded-full bg-white text-dark transition-all ease-in-out duration-300 hover:bg-gray-100">
               Learn More
             </button>
           </div>
